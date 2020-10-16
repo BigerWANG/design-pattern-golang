@@ -72,7 +72,6 @@ func main() {
 	//routestrategyExecutor("car")
 	//routestrategyExecutor("walking")
 	//routestrategyExecutor("public")
-	
 	var nav Navigator
 
 	nav.setRouteStrategy(&CarsStrategy{})
