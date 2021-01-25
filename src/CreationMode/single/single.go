@@ -19,7 +19,7 @@ func getInstance() *single{
 		defer lock.Unlock()
 		if signleInstance == nil {
 
-			fmt.Println("Createing signle instance now.")
+			fmt.Println("Createing signle i746776nstance now.")
 			signleInstance = &single{}
 
 		} else {

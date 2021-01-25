@@ -46,7 +46,7 @@ type cache struct {
 }
 
 
-func(c *cache) setEvictionAlgo(e evictionAlgo){ // 设置一个缓存清除策略到cache中
+func(c *cache) setEviction(e evictionAlgo){ // 设置一个缓存清除策略到cache中
 	c.evictionAlgo = e
 }
 
@@ -96,7 +96,6 @@ func strategyExecutor(evict string){
 		fifo := &fifo{}
 		cache.setEvictionAlgo(fifo)
 	}
-
 	cache.add("a", "1")
 	cache.add("b", "2")
 	cache.add("c", "3")
