@@ -4,6 +4,7 @@ import "fmt"
 
 /*
 golang 之 迭代器模式
+迭代器模式就是抽象出来一组方法用来迭代对象的集合，通常实现getNext方法来获取集合中的对象
  */
 
 
@@ -64,6 +65,7 @@ func(u *UserIter) hasNext()bool{
 	}
 	return false
 }
+
 
 
 
