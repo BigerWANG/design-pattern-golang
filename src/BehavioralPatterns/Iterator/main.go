@@ -1,5 +1,6 @@
-package Iterator
+package main
 
+import "fmt"
 
 /*
 golang 之 迭代器模式
@@ -18,7 +19,7 @@ type Iterator interface {
 }
 
 
-// 实现一个collection create方法返回Iterator的实现
+// 实现一个collection create方法返回Iterator的实现类
 type Collection interface {
 	Create() Iterator
 }
@@ -62,4 +63,32 @@ func(u *UserIter) hasNext()bool{
 		return true
 	}
 	return false
+}
+
+
+
+
+func main()  {
+
+	user1 := &user{
+		"w",
+		20,
+	}
+
+	user2 := &user{
+		"Z",
+		22,
+	}
+
+	userCollection:=UserCollection{
+		[]*user{user1, user2},
+	}
+
+	iter := userCollection.Create()
+
+	for iter.hasNext(){
+		fmt.Println(iter.getNext())
+	}
+
+
 }
