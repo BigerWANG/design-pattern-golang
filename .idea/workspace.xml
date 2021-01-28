@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27e1d97a-551c-4f78-99fd-5ae335d743bf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/main.go" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/main.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/state/vendingMachineState.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/state/workflowState.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +18,8 @@
       <file leaf-file-name="FactoryMethod.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationMode/FactoryMethod/FactoryMethod.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
               </folding>
@@ -28,8 +30,8 @@
       <file leaf-file-name="single.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationMode/single/single.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="18" column="27" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
@@ -60,7 +62,7 @@
       <file leaf-file-name="Strategy.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Strategy.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="658">
               <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
@@ -69,11 +71,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="vendingMachineState.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/state/vendingMachineState.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workflowState.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/state/workflowState.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="command.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Command/command.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+            <state relative-caret-position="960">
+              <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -81,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Iterator/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="464">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -101,16 +125,6 @@
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="factory_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CreationMode/FactoryMethod/factory_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -146,6 +160,9 @@
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/Command/command.go" />
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Strategy.go" />
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/main.go" />
+        <option value="$PROJECT_DIR$/src/BehavioralPatterns/state/state.go" />
+        <option value="$PROJECT_DIR$/src/BehavioralPatterns/state/workflowState.go" />
+        <option value="$PROJECT_DIR$/src/BehavioralPatterns/state/vendingMachineState.go" />
       </list>
     </option>
   </component>
@@ -176,6 +193,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,47 +217,12 @@
               <item name="design-pattern-golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BehavioralPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BehavioralPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="Iterator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BehavioralPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CreationMode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CreationMode" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryMethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CreationMode" type="462c0819:PsiDirectoryNode" />
-              <item name="single" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,16 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build NavigatorStrategy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="design-pattern-golang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/NavigatorStrategy.go" />
-      <package value="design-pattern-golang" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build vendingMachineState.go">
     <configuration name="go build Strategy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="design-pattern-golang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -312,20 +286,28 @@
       <package value="design-pattern-golang" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build vendingMachineState.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="design-pattern-golang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/BehavioralPatterns/state/vendingMachineState.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build Strategy.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build NavigatorStrategy.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build single.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build command.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build single.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build command.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build vendingMachineState.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build command.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build Strategy.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build single.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build NavigatorStrategy.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build vendingMachineState.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build command.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build Strategy.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build single.go" />
       </list>
     </recent_temporary>
   </component>
@@ -334,17 +316,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19009584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17477657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17477657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27010924" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -365,26 +348,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Command/command.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/NavigatorStrategy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationMode/FactoryMethod/factory_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -768,16 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Strategy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/NavigatorStrategy.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -790,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Command/command.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+        <state relative-caret-position="960">
+          <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
@@ -800,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationMode/FactoryMethod/FactoryMethod.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
@@ -810,8 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationMode/single/single.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
@@ -820,10 +773,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Iterator/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="464">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Strategy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/state/workflowState.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/state/vendingMachineState.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
